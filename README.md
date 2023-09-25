@@ -15,8 +15,11 @@ The training consists of two steps, 1) Image translation and 2) segmentation
 
 ## Segmentation Result (Dice score)
 w/o Domain Adaptation : 0.0491 
+
 2d CycleGAN: 0.5024
+
 3to3 CycleGAN:0.4386 
+
 SDC-UDA: 0.5929
 
 ## Domain Adaption Result
