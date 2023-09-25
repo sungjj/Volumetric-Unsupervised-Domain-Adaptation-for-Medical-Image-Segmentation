@@ -24,9 +24,11 @@ SDC-UDA: 0.5929
 
 ## Domain Adaption Result
 CT -> MR -> CT
+
 ![image](https://github.com/sungjj/Volumetric-Unsupervised-Domain-Adaptation-for-Medical-Image-Segmentation/assets/136042172/a3034672-9631-431a-8d67-4c5f331a60fd)
 
 MR -> CT -> MR
+
 ![image](https://github.com/sungjj/Volumetric-Unsupervised-Domain-Adaptation-for-Medical-Image-Segmentation/assets/136042172/0d034bcc-18cc-4921-aecb-0f9b4f847320)
 
 
