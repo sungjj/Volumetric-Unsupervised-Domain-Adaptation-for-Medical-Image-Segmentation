@@ -10,7 +10,28 @@ The following three methods were used in domain adaptation.
 
 The training consists of two steps, 1) Image translation and 2) segmentation
 
+## Dataset
+[Cardiac (MMWHS)](https://zmiclab.github.io/zxh/0/mmwhs/)
+
+## Segmentation Result (Dice score)
+w/o Domain Adaptation : 0.0491 
+2d CycleGAN: 0.5024
+3to3 CycleGAN:0.4386 
+SDC-UDA: 0.5929
+
+## Domain Adaption Result
+CT -> MR -> CT
+![image](https://github.com/sungjj/Volumetric-Unsupervised-Domain-Adaptation-for-Medical-Image-Segmentation/assets/136042172/a3034672-9631-431a-8d67-4c5f331a60fd)
+
+MR -> CT -> MR
+![image](https://github.com/sungjj/Volumetric-Unsupervised-Domain-Adaptation-for-Medical-Image-Segmentation/assets/136042172/0d034bcc-18cc-4921-aecb-0f9b4f847320)
+
+
+## Reference
+
 The segmentation model is [UNet](https://github.com/milesial/Pytorch-UNet/tree/master)
+
 The dataset code is partially borrowed by [DRANet](https://github.com/Seung-Hun-Lee/DRANet)
+
 The transformer block code is partially borrowed by [Segformer](https://github.com/lucidrains/segformer-pytorch)
 
